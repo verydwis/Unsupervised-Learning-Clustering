@@ -1,20 +1,8 @@
-# clustering-k-means
-klastering dari data nilai raport mata pelajaran kimia dengan Algoritma K-Means, kemudian tujuan bisnis yang ingin kami capai adalah melakukan  pengelompokan atau Clustering tingkat pemahaman siswa terhadap mata pelajaran kimia berdasarkan nilai PAS/PAT dan Rapor.
+# Clustering K-Means, KNN, dan Hierarchical Clustering
+Clustering adalah teknik dalam analisis data yang digunakan untuk mengelompokkan data ke dalam kelompok-kelompok yang memiliki kesamaan berdasarkan karakteristik tertentu. Salah satu algoritma clustering yang umum digunakan adalah K-Means, yang bekerja dengan mengelompokkan data ke dalam K kelompok berdasarkan jarak terdekat antara titik data dan pusat kelompok. K-Means cocok digunakan untuk data yang berjumlah besar dan tidak memiliki label. Selain itu, terdapat juga algoritma K-Nearest Neighbors (KNN) yang digunakan untuk klasifikasi, namun juga dapat digunakan untuk clustering dengan cara menemukan K tetangga terdekat dari setiap titik data. Sedangkan, Hierarchical Clustering merupakan metode yang membangun hirarki kelompok secara bertahap dengan menggabungkan atau membagi kelompok berdasarkan jarak antar titik data. Hierarchical Clustering cocok digunakan untuk data yang memiliki struktur hierarkis atau tidak terlalu besar. Dengan memahami perbedaan dan karakteristik dari masing-masing algoritma ini, pemrosesan dan analisis data dapat dilakukan dengan lebih efisien dan sesuai dengan kebutuhan..
 
-## Penjelasan Data
-Data yang kami gunakan terdiri dari 123 baris dan 9 kolom, yang terdiri dari atribut NO, NISN, Nama, L/P, Harian, PAS/PAT, Rapor, Predikat dan Deskripsi. Dengan rincian sebagai berikut :
-
-| Atribut   | Tipe Data | Makna |
-|:----------:|:-------------:|:-------------|
-| NO |  Nominal (Label) | Memberikan informasi urutan data |
-| NISN |  Nominal (Label) | Memberikan informasi mengenai NISN siswa |
-| Nama |  Nominal (Label) | Memberikan informasi nama siswa |
-| L/P |  Nominal (Label) | Memberikan informasi mengenai jenis kelamin siswa |
-| Harian |  Ratio (Mutlak) | Memberikan informasi mengenai nilai harian siswa |
-| PAS/PAT |  Ratio (Mutlak) | Memberikan informasi nilai PAS/PAT siswa |
-| Raport |  Ratio (Mutlak) | Memberikan informasi mengenai nilai raport siswa |
-| Predikat |  Nominal (Label) | Memberikan informasi mengenai predikat siswa |
-| Deskripsi | - | Jadi, deskripsi tidak termasuk dalam jenis data nominal atau ordinal, karena deskripsi hanya merupakan informasi atau penjelasan tentang sesuatu, bukan merupakan data yang terukur |
+## Dataset
+K-Means menggunakan dataset **Nilai_Rapot_Kimia.csv**, KNN menggunakan dataset **heart.csv**, dan HC menggunakan dataset **Mall_Customers.csv**.
 
 ## Selengkapnya
 Silahkan akses tautan berikut: https://s.id/jurnal-klasterisasi-tingkat-pemahaman-siswa
